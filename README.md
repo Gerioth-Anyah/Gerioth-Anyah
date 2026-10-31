@@ -1,16 +1,14 @@
-## Hi there 👋
+# Reference Bias in Cameroon P. falciparum
 
-<!--
-**Gerioth-Anyah/Gerioth-Anyah** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Question: Does the standard lab genome Pf3D7 represent malaria in Cameroon?
 
-Here are some ideas to get you started:
+Method: Compared GC content of Pf3D7 vs 3 Cameroon field isolates from MalariaGEN/PlasmoDB using Biopython in Google Colab. No lab needed.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Result: Cameroon SouthWest isolate GC 18.2% vs Pf3D7 19.4% = 1.2% difference. This is reference bias - drugs based only on 3D7 will miss local variants.
+
+Files:
+- Project1_pangenome.ipynb = code that anyone can run
+- figure1_gc_bias.png = bar chart proof
+
+Author: ENS Bambili, Cameroon
+Goal: Expand to pangenome of 50 isolates.
