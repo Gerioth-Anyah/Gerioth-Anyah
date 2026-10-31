@@ -12,3 +12,4 @@ Files:
 
 Author: ENS Bambili, Cameroon
 Goal: Expand to pangenome of 50 isolates.
+![GC bias chart](figure1.png)
